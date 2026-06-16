@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura de HTML</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+<header class="encabezado">
+    <nav class="nav">
+        <img src="Imagenes/logoMBL.png" class="logo-nav" alt="Logo">
+        <div class="menu-links">
+            <a href="#inicio">Inicio</a>
+            <a href="#historia">Historia</a>
+            <a href="#heroes">Heroes</a>
+            <a href="#rangos">Rangos</a>
+        </div>
+    </nav>
+
+    <div class="carousel-container">
+        <div class="titulo-carrusel">
+            <h1>MOBILE</h1>
+            <h2>LEGENDS</h2>
+        </div>
+
+        <div class="info-hero">
+            <p class="subtitulo-hero">Forma tu equipo, domina el campo de batalla<br>y conviértete en una leyenda.</p>
+            
+        <div class="botones-hero">
+            <button class="btn-jugar" onclick="irAJuego()">
+                JUGAR AHORA
+            </button>
+        </div>
+        </div>
+
+        <div class="caja-informativa">
+            <div class="titulo-informativa">
+                <h3>¿QUÉ ES MOBILE LEGENDS?</h3>
+                <p>Mobile Legends: Bang Bang (MLBB) es un MOBA desarrollado por Moonton.</p>
+            </div>
+
+            <hr class="divisor">
+
+            <div class="divider"></div>
+            
+            <div class="seccion-trata">
+                <img src="Imagenes/espada.png" alt="Icono de espada" class="icono-espada">
+                <p>
+                    <strong>¿DE QUÉ TRATA EL JUEGO?</strong><br>
+                    El juego enfrenta a dos equipos de cinco jugadores (5v5) en batallas estratégicas.
+                </p>
+            </div>
+            
+            <div class="seccion-trata">
+                <img src="Imagenes/objetivos.png" alt="Icono de objetivo" class="icono-objetivo">
+                <p>
+                    <strong>¿CUÁL ES EL OBJETIVO?</strong><br>
+                    El objetivo es destruir la base enemiga mientras defiendes la tuya.
+                </p>
+            </div>
+        </div>
+
+        <div class="carrusel-fondo">
+            <div class="slide" style="background-image: url('Imagenes/zetian_fondo.jpg');"></div>
+            <div class="slide" style="background-image: url('Imagenes/cici_fondo.png');"></div>
+            <div class="slide" style="background-image: url('Imagenes/lesley_fondo.jpg');"></div>
+            <div class="slide" style="background-image: url('Imagenes/layla_fondo.jpg');"></div>
+            <div class="slide" style="background-image: url('Imagenes/guinevere_fondo.jpg');"></div>
+        </div>
+    </div>
+    </header>
+
+<!-- sección de historia -->
+    <section id="historia">
+        <div class="historia-contenedor">
+            <div class="historia-texto">
+                <h2 class="titulo-seccion">Historia</h2>
+
+                <p class="parrafo-historia">
+                    El continente de Astra no conoce el descanso; es un tapiz viviente donde la magia ancestral colisiona con la
+                    tecnología más avanzada, y donde cada rincón respira el eco de batallas eternas.
+
+                    Desde los imperios resplandecientes que defienden la luz hasta los abismos corruptos que amenazan con
+                    devorarlo todo, el equilibrio del mundo pende de un hilo.
+
+                    Aquí, la historia no la escriben los cobardes: se cincela con sangre, estrategia y acero en el fragor del
+                    combate.
+
+                    Cuando las sombras se alzan, el llamado resuena en cada región, obligando a los campeones más poderosos a
+                    abandonar sus hogares, cruzar sus caminos y unirse en la arena definitiva.
+
+                    Prepárate, porque estás a punto de adentrarte en un reino de dioses, monstruos y mortales desafiantes,
+                    donde solo aquellos con la voluntad inquebrantable de luchar lograrán trascender y convertirse en
+                    verdaderas Leyendas.
+                </p>
+            </div>
+
+            <div class="historia-imagen">
+                <img src="https://img.freepik.com/premium-photo/illustration-vibrant-dynamic-fantasy-castle-epic-mythical-setting_1266280-93129.jpg?w=360" alt="Historia de Mobile Legends">
+                <div class="frase-historia">
+                    En Astra, cada elección escribe tu leyenda.
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+<!-- sección de héroes -->
+    <section id="heroes">
+        <h2 class="titulo-seccion">Héroes</h2>
+        <details open class="secciones-card">
+            <summary style="cursor: pointer; font-size: 1.5rem; font-weight: bold; margin-bottom: 10px;">
+                Línea de Oro
+            </summary>
+            
+            <div class="fila-secciones">
+            <div class="card-secciones">
+                <h3>Layla</h3>
+                <img src="Imagenes/layla.jpg" alt="Layla">
+                <p>Especialista en ataques de largo alcance que aumenta su daño conforme incrementa la distancia con sus enemigos.</p>
+            </div>
+
+            <div class="card-secciones">
+                <h3>Miya</h3>
+                <img src="Imagenes/miya.jpg" alt="Miya">
+                <p>Arquera élfica que dispara una lluvia de flechas y gana velocidad de ataque para eliminar enemigos rápidamente.</p>
+            </div>
+
+            <div class="card-secciones">
+                <h3>Hanabi</h3>
+                <img src="Imagenes/hanabi.jpg" alt="Hanabi">
+                <p>Ninja del Clan Scarlet Shadow que hace rebotar sus ataques y controla al equipo enemigo con su habilidad definitiva.</p>
+            </div>
+
+            <div class="card-secciones">
+                <h3>Claude</h3>
+                <img src="Imagenes/claude.jpg" alt="Claude">
+                <p>El maestro ladrón que, junto a Dexter, ataca a gran velocidad y atraviesa las líneas enemigas.</p>
+            </div>
+
+            <div class="card-secciones">
+                <h3>Melissa</h3>
+                <img src="Imagenes/melissa.jpg" alt="Melissa">
+                <p>Controla una muñeca maldita para conectar a sus enemigos y causar daño constante desde una distancia segura.</p>
+            </div>
+
+            <div class="card-secciones">
+                <h3>Ixia</h3>
+                <img src="Imagenes/ixia.jpg" alt="Ixia">
+                <p>Utiliza un enorme cañón tecnológico para bombardear el campo de batalla con ataques devastadores.</p>
+            </div>
+
+            <div class="card-secciones">
+                <h3>Karrie</h3>
+                <img src="Imagenes/karrie.jpg" alt="Karrie">
+                <p>Especialista en eliminar tanques gracias a su daño verdadero basado en la vida máxima del objetivo.</p>
+            </div>
+
+            <div class="card-secciones">
+                <h3>Moskov</h3>
+                <img src="Imagenes/moskov.jpg" alt="Moskov">
+                <p>Lanza poderosas lanzas que atraviesan múltiples enemigos y puede empujarlos contra las paredes.</p>
+            </div>
+
+            <div class="card-secciones">
+                <h3>Wanwan</h3>
+                <img src="Imagenes/wanwan.jpg" alt="Wanwan">
+                <p>Ágil guerrera que salta continuamente mientras busca los puntos débiles de sus rivales.</p>
+            </div>
+
+            <div class="card-secciones">
+                <h3>Lesley</h3>
+                <img src="Imagenes/lesley.jpg" alt="Lesley">
+                <p>Francotiradora experta que inflige enormes golpes críticos desde largas distancias.</p>
+            </div>
+
+            <div class="card-secciones">
+                <h3>Granger</h3>
+                <img src="Imagenes/granger.jpg" alt="Granger">
+                <p>Artista del asesinato que dispara balas cargadas con gran daño explosivo desde el inicio de la partida.</p>
+            </div>
+
+            <div class="card-secciones">
+                <h3>Brody</h3>
+                <img src="Imagenes/brody.jpg" alt="Brody">
+                <p>Acumula marcas del Abismo sobre sus enemigos para ejecutar ataques finales devastadores.</p>
+            </div>
+
+            <div class="card-secciones">
+                <h3>Clint</h3>
+                <img src="Imagenes/clint.jpg" alt="Clint">
+                <p>Vaquero experto con una pistola mejorada que castiga a los enemigos con disparos de enorme alcance.</p>
+            </div>
+
+            <div class="card-secciones">
+                <h3>Irithel</h3>
+                <img src="Imagenes/irithel.jpg" alt="Irithel">
+                <p>Cazadora que combate montada sobre su tigre Leo mientras dispara sin detener su movimiento.</p>
+            </div>
+
+            <div class="card-secciones">
+                <h3>Beatrix</h3>
+                <img src="Imagenes/beatrix.jpg" alt="Beatrix">
+                <p>Domina cuatro armas distintas que le permiten adaptarse a cualquier situación del combate.</p>
+            </div>
+
+            <div class="card-secciones">
+                <h3>Popol y Kupa</h3>
+                <img src="Imagenes/popol.jpg" alt="Popol y Kupa">
+                <p>Un cazador acompañado por su fiel lobo Kupa, con quien controla zonas y elimina enemigos.</p>
+            </div>
+
+            <div class="card-secciones">
+                <h3>Bruno</h3>
+                <img src="Imagenes/bruno.jpg" alt="Bruno">
+                <p>Futbolista prodigio que potencia sus ataques críticos utilizando un balón cargado de energía.</p>
+            </div>
+
+            <div class="card-secciones">
+                <h3>Kimmy</h3>
+                <img src="Imagenes/kimmy.jpg" alt="Kimmy">
+                <p>Tiradora híbrida que dispara proyectiles mágicos mientras se mueve libremente por el campo de batalla.</p>
+            </div>
+
+            <div class="card-secciones">
+                <h3>Natan</h3>
+                <img src="Imagenes/natan.jpg" alt="Natan">
+                <p>Manipula el tiempo y el espacio para lanzar ataques mágicos de gran velocidad y crear un clon de sí mismo.</p>
+            </div>
+
+            <div class="card-secciones">
+                <h3>Harith</h3>
+                <img src="Imagenes/harith.jpg" alt="Harith">
+                <p>Mago ágil que se desplaza constantemente mientras reduce los tiempos de reutilización de sus habilidades.</p>
+            </div>
+
+            </div>
+            </details>
+
+            <details class="secciones-card">
+                <summary style="cursor: pointer; font-size: 1.5rem; font-weight: bold; margin-bottom: 10px;">
+                    Línea Media
+                </summary>
+
+            <div class="fila-secciones">
+                <div class="card-secciones">
+                    <h3>Aurora</h3>
+                    <img src="Imagenes/aurora.jpg" alt="Aurora">
+                    <p>Poderosa maga de hielo capaz de congelar enemigos y controlar las peleas con devastadoras habilidades de área.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Eudora</h3>
+                    <img src="Imagenes/eudora.jpg" alt="Eudora">
+                    <p>Maga especializada en daño explosivo que elimina objetivos rápidamente mediante poderosos rayos eléctricos.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Faramis</h3>
+                    <img src="Imagenes/faramis.jpg" alt="Faramis">
+                    <p>Soporte mágico que puede revivir temporalmente a sus aliados y cambiar el rumbo de una batalla.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Vale</h3>
+                    <img src="Imagenes/vale.jpg" alt="Vale">
+                    <p>Controla el viento para lanzar tornados y explosiones capaces de acabar con equipos enteros.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Valentina</h3>
+                    <img src="Imagenes/valentina.jpg" alt="Valentina">
+                    <p>Maga versátil que puede copiar la habilidad definitiva de sus enemigos y utilizarla a su favor.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Vexana</h3>
+                    <img src="Imagenes/vexana.jpg" alt="Vexana">
+                    <p>Invoca un poderoso guardián y controla grandes áreas con magia oscura y maldiciones.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Zhuxin</h3>
+                    <img src="Imagenes/zhuxin.jpg" alt="Zhuxin">
+                    <p>Maga que manipula linternas espirituales para controlar el campo de batalla y hostigar constantemente.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Luo Yi</h3>
+                    <img src="Imagenes/luoyi.jpg" alt="Luo Yi">
+                    <p>Domina las energías Yin y Yang para atraer enemigos y crear poderosas combinaciones en equipo.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Valir</h3>
+                    <img src="Imagenes/valir.jpg" alt="Valir">
+                    <p>Controla las llamas para empujar enemigos y causar daño continuo a distancia.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Kimmy</h3>
+                    <img src="Imagenes/kimmy.jpg" alt="Kimmy">
+                    <p>Tiradora híbrida que dispara proyectiles mágicos mientras se mueve libremente por el mapa.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Nana</h3>
+                    <img src="Imagenes/nana.jpg" alt="Nana">
+                    <p>Pequeña maga que transforma enemigos y ofrece un excelente control de masas para su equipo.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Yve</h3>
+                    <img src="Imagenes/yve.jpg" alt="Yve">
+                    <p>Manipula el espacio para ralentizar y bombardear a sus enemigos desde una posición segura.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Zhask</h3>
+                    <img src="Imagenes/zhask.jpg" alt="Zhask">
+                    <p>Invoca una poderosa criatura del Vacío que dispara continuamente y domina las peleas.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Zetian</h3>
+                    <img src="Imagenes/zetian.jpg" alt="Zetian">
+                    <p>Maga especializada en ataques de gran alcance y control del mapa con habilidades de área.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Cecilion</h3>
+                    <img src="Imagenes/cecilion.jpg" alt="Cecilion">
+                    <p>Acumula poder con el tiempo para lanzar enormes cantidades de daño mágico en el juego tardío.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Chang'e</h3>
+                    <img src="Imagenes/chang'e.jpg" alt="Chang'e">
+                    <p>Invoca una lluvia de estrellas que golpea repetidamente a todos los enemigos en su camino.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Cyclops</h3>
+                    <img src="Imagenes/cyclops.jpg" alt="Cyclops">
+                    <p>Mago de un solo ojo que lanza esferas mágicas y atrapa objetivos con su definitiva.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Gord</h3>
+                    <img src="Imagenes/gord.jpg" alt="Gord">
+                    <p>Especialista en daño verdadero que channeliza un devastador rayo de energía mágica.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Lunox</h3>
+                    <img src="Imagenes/lunox.jpg" alt="Lunox">
+                    <p>Manipula el orden y el caos para alternar entre supervivencia y un enorme daño mágico.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Lylia</h3>
+                    <img src="Imagenes/lylia.jpg" alt="Lylia">
+                    <p>Utiliza explosivos mágicos y puede retroceder en el tiempo para recuperar su salud y posición.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Novaria</h3>
+                    <img src="Imagenes/novaria.jpg" alt="Novaria">
+                    <p>Francotiradora mágica que ataca desde enormes distancias con proyectiles astrales.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Odette</h3>
+                    <img src="Imagenes/odette.jpg" alt="Odette">
+                    <p>Princesa del cisne que desata una sinfonía mágica capaz de destruir equipos completos.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Pharsa</h3>
+                    <img src="Imagenes/pharsa.jpg" alt="Pharsa">
+                    <p>Puede transformarse en ave para desplazarse rápidamente y bombardear desde largas distancias.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Xavier</h3>
+                    <img src="Imagenes/xavier.jpg" alt="Xavier">
+                    <p>Mago que dispara rayos de energía a través del mapa y potencia sus habilidades en cadena.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Gusion</h3>
+                    <img src="Imagenes/gusion.jpg" alt="Gusion">
+                    <p>Asesino y mago de alta movilidad que elimina enemigos mediante rápidas combinaciones de dagas.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Harley</h3>
+                    <img src="Imagenes/harley.jpg" alt="Harley">
+                    <p>Mago ilusionista que marca a sus enemigos y los hace explotar con cartas mágicas.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Kagura</h3>
+                    <img src="Imagenes/kagura.jpg" alt="Kagura">
+                    <p>Controla un paraguas místico para desplazarse, limpiar masas y ejecutar poderosos combos.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Kadita</h3>
+                    <img src="Imagenes/kadita.jpg" alt="Kadita">
+                    <p>Reina del océano que entra y sale del combate con olas capaces de eliminar múltiples rivales.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Selena</h3>
+                    <img src="Imagenes/selena.jpg" alt="Selena">
+                    <p>Alterna entre forma humana y abisal para aturdir y eliminar enemigos con gran precisión.</p>
+                </div>
+            </div>
+            </details>
+
+            <details class="secciones-card">
+                <summary style="cursor: pointer; font-size: 1.5rem; font-weight: bold; margin-bottom: 10px;">
+                    Linea de EXP 
+                </summary>
+                <div class="fila-secciones">
+                    <div class="card-secciones">
+                        <h3>Arlott</h3>
+                        <img src="Imagenes/arlott.jpg" alt="Arlott">
+                        <p>Luchador que aprovecha las marcas de sus enemigos para realizar rápidos desplazamientos y controlar peleas.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Balmond</h3>
+                        <img src="Imagenes/balmond.jpg" alt="Balmond">
+                        <p>Guerrero resistente que limpia oleadas rápidamente y ejecuta enemigos con un poderoso golpe.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Chou</h3>
+                        <img src="Imagenes/chou.jpg" alt="Chou">
+                        <p>Especialista en aislar objetivos prioritarios gracias a su gran movilidad y control.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Edith</h3>
+                        <img src="Imagenes/edith.jpg" alt="Edith">
+                        <p>Alterna entre tanque y tiradora para resistir daño y responder con gran potencia.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Esmeralda</h3>
+                        <img src="Imagenes/esmeralda.jpg" alt="Esmeralda">
+                        <p>Absorbe los escudos enemigos y los convierte en su propia protección mientras lucha.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Gatotkaca</h3>
+                        <img src="Imagenes/gatotkaca.jpg" alt="Gatotkaca">
+                        <p>Tanque con enorme resistencia que inicia peleas saltando sobre varios enemigos.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Guinevere</h3>
+                        <img src="Imagenes/guinevere.jpg" alt="Guinevere">
+                        <p>Combina daño mágico y control para levantar enemigos y ejecutar devastadores combos.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Gloo</h3>
+                        <img src="Imagenes/gloo.jpg" alt="Gloo">
+                        <p>Se divide en múltiples fragmentos y se adhiere a sus enemigos para causar caos.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Hilda</h3>
+                        <img src="Imagenes/hilda.jpg" alt="Hilda">
+                        <p>Obtiene regeneración en los arbustos y domina los intercambios desde el inicio.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Hylos</h3>
+                        <img src="Imagenes/hylos.jpg" alt="Hylos">
+                        <p>Centauro extremadamente resistente que lidera al equipo en el frente de batalla.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Jawhead</h3>
+                        <img src="Imagenes/jawhead.jpg" alt="Jawhead">
+                        <p>Puede lanzar enemigos o aliados para crear jugadas inesperadas durante el combate.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Ruby</h3>
+                        <img src="Imagenes/ruby.jpg" alt="Ruby">
+                        <p>Especialista en robo de vida y control de masas gracias a su enorme guadaña.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Silvanna</h3>
+                        <img src="Imagenes/silvanna.jpg" alt="Silvanna">
+                        <p>Encierra a sus rivales en un círculo mágico mientras inflige daño continuo.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Terizla</h3>
+                        <img src="Imagenes/terizla.jpg" alt="Terizla">
+                        <p>Forjador que castiga con golpes pesados y gran resistencia en las peleas grupales.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Uranus</h3>
+                        <img src="Imagenes/uranus.jpg" alt="Uranus">
+                        <p>Tanque que recupera vida constantemente mientras permanece en combate.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Aldous</h3>
+                        <img src="Imagenes/aldous.jpg" alt="Aldous">
+                        <p>Acumula poder durante la partida para eliminar enemigos con un solo golpe.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Alice</h3>
+                        <img src="Imagenes/alice.jpg" alt="Alice">
+                        <p>Maga híbrida que absorbe vida constantemente mientras permanece en combate.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Alpha</h3>
+                        <img src="Imagenes/alpha.jpg" alt="Alpha">
+                        <p>Guerrero acompañado por Beta que destaca por su daño sostenido y regeneración.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Badang</h3>
+                        <img src="Imagenes/badang.jpg" alt="Badang">
+                        <p>Encierra enemigos con un muro y los golpea con una lluvia de puños.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Bane</h3>
+                        <img src="Imagenes/bane.jpg" alt="Bane">
+                        <p>Pirata que combina daño físico y mágico con una enorme ola destructiva.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Cici</h3>
+                        <img src="Imagenes/cici.jpg" alt="Cici">
+                        <p>Utiliza su yoyo para perseguir enemigos mientras mantiene una gran movilidad.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Dyrroth</h3>
+                        <img src="Imagenes/dyrroth.jpg" alt="Dyrroth">
+                        <p>Reduce la defensa enemiga y destaca en enfrentamientos uno contra uno.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Lapu-Lapu</h3>
+                        <img src="Imagenes/lapu_lapu.jpg" alt="Lapu-Lapu">
+                        <p>Alterna entre dos estilos de combate para resistir y causar gran daño.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Lukas</h3>
+                        <img src="Imagenes/lukas.jpg" alt="Lukas">
+                        <p>Luchador equilibrado que combina resistencia y presión constante sobre sus rivales.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Paquito</h3>
+                        <img src="Imagenes/paquito.jpg" alt="Paquito">
+                        <p>Boxeador extremadamente móvil que encadena rápidos combos de golpes.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Phoveus</h3>
+                        <img src="Imagenes/phoveus.jpg" alt="Phoveus">
+                        <p>Castiga automáticamente a los enemigos que utilizan habilidades de desplazamiento.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Sora</h3>
+                        <img src="Imagenes/sora.jpg" alt="Sora">
+                        <p>Luchadora híbrida que combina sostenibilidad con un elevado daño en combate.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Thamuz</h3>
+                        <img src="Imagenes/thamuz.jpg" alt="Thamuz">
+                        <p>Demonio que recupera vida constantemente mientras inflige daño continuo.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>X.Borg</h3>
+                        <img src="Imagenes/xborg.jpg" alt="X.Borg">
+                        <p>Utiliza su armadura mecánica y lanzallamas para desgastar a todo el equipo enemigo.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Yu Zhong</h3>
+                        <img src="Imagenes/yu_zhong.jpg" alt="Yu Zhong">
+                        <p>Puede transformarse en un dragón negro y dominar las peleas grupales.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Argus</h3>
+                        <img src="Imagenes/argus.jpg" alt="Argus">
+                        <p>Se vuelve inmortal temporalmente y aprovecha ese tiempo para eliminar enemigos.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Benedetta</h3>
+                        <img src="Imagenes/benedetta.jpg" alt="Benedetta">
+                        <p>Espadachina extremadamente móvil que esquiva ataques mientras contraataca.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Freya</h3>
+                        <img src="Imagenes/freya.jpg" alt="Freya">
+                        <p>Guerrera bendecida por los dioses con gran capacidad para dominar duelos prolongados.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Masha</h3>
+                        <img src="Imagenes/masha.jpg" alt="Masha">
+                        <p>Posee tres barras de vida y destruye torres y objetivos con enorme rapidez.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Sun</h3>
+                        <img src="Imagenes/sun.jpg" alt="Sun">
+                        <p>Invoca clones para aumentar su daño y presionar constantemente las líneas.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Yin</h3>
+                        <img src="Imagenes/yin.jpg" alt="Yin">
+                        <p>Transporta a un enemigo a una dimensión aislada para enfrentarlo en solitario.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Zilong</h3>
+                        <img src="Imagenes/zilong.jpg" alt="Zilong">
+                        <p>Destaca en el juego tardío gracias a su velocidad y capacidad para eliminar objetivos rápidamente.</p>
+                    </div>
+
+                </div>
+            </details>
+
+            <details class="secciones-card">
+                <summary style="cursor: pointer; font-size: 1.5rem; font-weight: bold; margin-bottom: 10px;">
+                    Jungla
+                </summary>
+
+                <div class="fila-secciones">
+                    <div class="card-secciones">
+                        <h3>Aamon</h3>
+                        <img src="Imagenes/aamon.jpg" alt="Aamon">
+                        <p>Asesino que se vuelve invisible mientras acumula fragmentos de energía para ejecutar ataques letales.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Fanny</h3>
+                        <img src="Imagenes/fanny.jpg" alt="Fanny">
+                        <p>Se desplaza con cables de acero a gran velocidad, atacando continuamente mientras atraviesa el campo de batalla.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Gusion</h3>
+                        <img src="Imagenes/gusion.jpg" alt="Gusion">
+                        <p>Combina dagas y magia para eliminar enemigos con explosivas ráfagas de daño en pocos segundos.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Harley</h3>
+                        <img src="Imagenes/harley.jpg" alt="Harley">
+                        <p>Mago ilusionista que marca a sus rivales con magia explosiva y escapa antes de recibir daño.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Helcurt</h3>
+                        <img src="Imagenes/helcurt.jpg" alt="Helcurt">
+                        <p>Asesino de las sombras que silencia enemigos y apaga la visión del mapa para sorprender a sus víctimas.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Hayabusa</h3>
+                        <img src="Imagenes/hayabusa.jpg" alt="Hayabusa">
+                        <p>Ninja experto que utiliza sombras para desplazarse rápidamente y acabar con objetivos aislados.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Joy</h3>
+                        <img src="Imagenes/joy.jpg" alt="Joy">
+                        <p>Heroína extremadamente móvil que encadena movimientos musicales para causar daño continuo.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Karina</h3>
+                        <img src="Imagenes/karina.jpg" alt="Karina">
+                        <p>Especialista en eliminar héroes vulnerables gracias a su daño mágico y reinicio de habilidades.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Lancelot</h3>
+                        <img src="Imagenes/lancelot.jpg" alt="Lancelot">
+                        <p>Espadachín elegante que atraviesa enemigos con rápidos movimientos y ataques de gran precisión.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Ling</h3>
+                        <img src="Imagenes/ling.jpg" alt="Ling">
+                        <p>Puede desplazarse sobre los muros del mapa y atacar desde posiciones imposibles para otros héroes.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Nolan</h3>
+                        <img src="Imagenes/nolan.jpg" alt="Nolan">
+                        <p>Manipula grietas espaciales para infligir enormes cantidades de daño y reposicionarse rápidamente.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Natalia</h3>
+                        <img src="Imagenes/natalia.jpg" alt="Natalia">
+                        <p>Asesina sigilosa que permanece invisible para sorprender y eliminar objetivos prioritarios.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Saber</h3>
+                        <img src="Imagenes/saber.jpg" alt="Saber">
+                        <p>Especialista en ejecutar enemigos con una combinación de espadas voladoras y un poderoso ataque definitivo.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Suyou</h3>
+                        <img src="Imagenes/suyou.jpg" alt="Suyou">
+                        <p>Guerrero ágil que combina movilidad y daño explosivo para dominar enfrentamientos individuales.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Aulus</h3>
+                        <img src="Imagenes/aulus.jpg" alt="Aulus">
+                        <p>Luchador que aumenta enormemente su poder en el juego tardío gracias a su gigantesca hacha.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Hanzo</h3>
+                        <img src="Imagenes/hanzo.jpg" alt="Hanzo">
+                        <p>Puede separar su alma para atacar desde la distancia y eliminar enemigos sin exponerse.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Freya</h3>
+                        <img src="Imagenes/freya.jpg" alt="Freya">
+                        <p>Guerrera bendecida por los dioses que domina el combate cuerpo a cuerpo con poderosos saltos.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Roger</h3>
+                        <img src="Imagenes/roger.jpg" alt="Roger">
+                        <p>Cambia entre forma humana y hombre lobo para perseguir y acabar con sus enemigos.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Sun</h3>
+                        <img src="Imagenes/sun.jpg" alt="Sun">
+                        <p>Invoca clones para confundir al rival y aumentar su capacidad de daño sostenido.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Yi Sun-shin</h3>
+                        <img src="Imagenes/yi_sun_shin.jpg" alt="Yi Sun-shin">
+                        <p>Alterna entre espada y arco, además de revelar la posición de todos los enemigos con su definitiva.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Yin</h3>
+                        <img src="Imagenes/yin.jpg" alt="Yin">
+                        <p>Puede atrapar a un enemigo en una dimensión aislada para enfrentarlo en un combate uno contra uno.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Alice</h3>
+                        <img src="Imagenes/alice.jpg" alt="Alice">
+                        <p>Maga híbrida que absorbe vida constantemente mientras permanece en el centro de la pelea.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Alpha</h3>
+                        <img src="Imagenes/alpha.jpg" alt="Alpha">
+                        <p>Luchador cibernético acompañado por Beta que inflige daño constante y gran sostenibilidad.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Alucard</h3>
+                        <img src="Imagenes/alucard.jpg" alt="Alucard">
+                        <p>Especialista en duelos que recupera vida con cada ataque y persigue fácilmente a sus enemigos.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Balmond</h3>
+                        <img src="Imagenes/balmond.jpg" alt="Balmond">
+                        <p>Guerrero resistente que limpia la jungla rápidamente y ejecuta enemigos con su enorme hacha.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Dyrroth</h3>
+                        <img src="Imagenes/dyrroth.jpg" alt="Dyrroth">
+                        <p>Príncipe del Abismo que rompe defensas y causa gran daño físico en combates cortos.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Jawhead</h3>
+                        <img src="Imagenes/jawhead.jpg" alt="Jawhead">
+                        <p>Robot de combate capaz de lanzar enemigos o aliados para crear jugadas inesperadas.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Julian</h3>
+                        <img src="Imagenes/julian.jpg" alt="Julian">
+                        <p>Utiliza habilidades potenciadas para adaptarse a cualquier situación y dominar las peleas.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Leomord</h3>
+                        <img src="Imagenes/leomord.jpg" alt="Leomord">
+                        <p>Invoca a su caballo Barbiel para convertirse en un devastador guerrero montado.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Lukas</h3>
+                        <img src="Imagenes/lukas.jpg" alt="Lukas">
+                        <p>Luchador equilibrado que combina resistencia y daño para destacar en la jungla.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Martis</h3>
+                        <img src="Imagenes/martis.jpg" alt="Martis">
+                        <p>Guerrero con múltiples ataques giratorios que obtiene reinicios al ejecutar enemigos.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Akai</h3>
+                        <img src="Imagenes/akai.jpg" alt="Akai">
+                        <p>Panda tanque que controla peleas empujando enemigos con su poderosa rotación.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Barats</h3>
+                        <img src="Imagenes/barats.jpg" alt="Barats">
+                        <p>Junto a su dinosaurio gana tamaño y resistencia mientras domina el frente de batalla.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Baxia</h3>
+                        <img src="Imagenes/baxia.jpg" alt="Baxia">
+                        <p>Tanque veloz que rueda por el mapa reduciendo la regeneración de los enemigos.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Fredrinn</h3>
+                        <img src="Imagenes/fredrinn.jpg" alt="Fredrinn">
+                        <p>Convierte el daño recibido en una poderosa contraofensiva capaz de cambiar una pelea.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Hylos</h3>
+                        <img src="Imagenes/hylos.jpg" alt="Hylos">
+                        <p>Centauro de enorme resistencia que crea caminos para acelerar a sus aliados.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Bane</h3>
+                        <img src="Imagenes/bane.jpg" alt="Bane">
+                        <p>Pirata maldito que combina ataques físicos y mágicos mientras invoca un tsunami devastador.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Granger</h3>
+                        <img src="Imagenes/granger.jpg" alt="Granger">
+                        <p>Tirador que utiliza balas especiales para infligir enorme daño desde una distancia segura.</p>
+                    </div>
+
+                    <div class="card-secciones">
+                        <h3>Popol y Kupa</h3>
+                        <img src="Imagenes/popol.jpg" alt="Popol y Kupa">
+                        <p>Trabajan en equipo para controlar objetivos y limpiar la jungla con gran eficiencia.</p>
+                    </div>
+                </div>
+            </details>    
+
+            <details class="secciones-card">
+                <summary style="cursor: pointer; font-size: 1.5rem; font-weight: bold; margin-bottom: 10px;">
+                    Recorrer
+                </summary>
+                
+            <div class="fila-secciones">
+
+                <div class="card-secciones">
+                    <h3>Atlas</h3>
+                    <img src="Imagenes/atlas.jpg" alt="Atlas">
+                    <p>Tanque capaz de atrapar a varios enemigos con su poderosa definitiva y reunirlos para un combo devastador.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Belerick</h3>
+                    <img src="Imagenes/belerick.jpg" alt="Belerick">
+                    <p>Guardián del bosque que refleja daño recibido y protege a sus aliados absorbiendo ataques.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Carmilla</h3>
+                    <img src="Imagenes/carmilla.jpg" alt="Carmilla">
+                    <p>Vincula a varios enemigos para compartir el daño y los efectos de control entre ellos.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Gatotkaca</h3>
+                    <img src="Imagenes/gatotkaca.jpg" alt="Gatotkaca">
+                    <p>Héroe extremadamente resistente que salta sobre sus rivales para iniciar peleas grupales.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Johnson</h3>
+                    <img src="Imagenes/johnson.jpg" alt="Johnson">
+                    <p>Se transforma en automóvil para recorrer el mapa y sorprender enemigos con impactos explosivos.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Khaleed</h3>
+                    <img src="Imagenes/khaleed.jpg" alt="Khaleed">
+                    <p>Guerrero del desierto que inicia combates con una poderosa carga y gran capacidad de supervivencia.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Khufra</h3>
+                    <img src="Imagenes/khufra.jpg" alt="Khufra">
+                    <p>Especialista en control de masas que bloquea desplazamientos y agrupa enemigos fácilmente.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Marcel</h3>
+                    <img src="Imagenes/marcel.jpg" alt="Marcel">
+                    <p>Roamer enfocado en iniciar peleas con habilidades de control y protección para el equipo.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Minotaur</h3>
+                    <img src="Imagenes/minotaur.jpg" alt="Minotaur">
+                    <p>Acumula furia para lanzar enormes golpes de área y mantener con vida a sus aliados.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Tigreal</h3>
+                    <img src="Imagenes/tigreal.jpg" alt="Tigreal">
+                    <p>Caballero que reúne a todo el equipo enemigo con su definitiva y crea oportunidades decisivas.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Akai</h3>
+                    <img src="Imagenes/akai.jpg" alt="Akai">
+                    <p>Panda tanque que desplaza enemigos con su giro para iniciar o proteger peleas.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Badang</h3>
+                    <img src="Imagenes/badang.jpg" alt="Badang">
+                    <p>Encierra rivales con un muro y los golpea con una lluvia de puñetazos.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Chip</h3>
+                    <img src="Imagenes/chip.jpg" alt="Chip">
+                    <p>Puede crear portales para mover rápidamente a su equipo y sorprender al enemigo.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Chou</h3>
+                    <img src="Imagenes/chou.jpg" alt="Chou">
+                    <p>Experto en aislar objetivos importantes mediante patadas y gran movilidad.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Edith</h3>
+                    <img src="Imagenes/edith.jpg" alt="Edith">
+                    <p>Alterna entre tanque y tiradora para iniciar enfrentamientos y responder con daño.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Franco</h3>
+                    <img src="Imagenes/franco.jpg" alt="Franco">
+                    <p>Su gancho puede atrapar enemigos desprevenidos y convertir cualquier error en una eliminación.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Gloo</h3>
+                    <img src="Imagenes/gloo.jpg" alt="Gloo">
+                    <p>Se divide en múltiples partes y se adhiere a sus enemigos para causar caos.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Grock</h3>
+                    <img src="Imagenes/grock.jpg" alt="Grock">
+                    <p>Levanta enormes muros de piedra para bloquear caminos y controlar el mapa.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Hilda</h3>
+                    <img src="Imagenes/hilda.jpg" alt="Hilda">
+                    <p>Obtiene regeneración en los arbustos y destaca por sus emboscadas agresivas.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Hylos</h3>
+                    <img src="Imagenes/hylos.jpg" alt="Hylos">
+                    <p>Centauro resistente que crea senderos para acelerar a sus aliados.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Jawhead</h3>
+                    <img src="Imagenes/jawhead.jpg" alt="Jawhead">
+                    <p>Puede lanzar enemigos o aliados para crear jugadas inesperadas.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Kaja</h3>
+                    <img src="Imagenes/kaja.jpg" alt="Kaja">
+                    <p>Especialista en atrapar un objetivo y llevarlo directamente hacia su equipo.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Kalea</h3>
+                    <img src="Imagenes/kalea.jpg" alt="Kalea">
+                    <p>Luchadora que combina iniciación y control para dominar enfrentamientos.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Minsitthar</h3>
+                    <img src="Imagenes/minsitthar.jpg" alt="Minsitthar">
+                    <p>Su arena bloquea habilidades de desplazamiento y controla el espacio de combate.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Angela</h3>
+                    <img src="Imagenes/angela.jpg" alt="Angela">
+                    <p>Se vincula con un aliado para protegerlo mediante escudos y curaciones.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Diggie</h3>
+                    <img src="Imagenes/diggie.jpg" alt="Diggie">
+                    <p>Neutraliza efectos de control y protege a todo el equipo con su definitiva.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Estes</h3>
+                    <img src="Imagenes/estes.jpg" alt="Estes">
+                    <p>Proporciona enormes cantidades de curación continua a todos sus aliados cercanos.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Floryn</h3>
+                    <img src="Imagenes/floryn.jpg" alt="Floryn">
+                    <p>Puede curar a cualquier compañero del mapa gracias a su conexión mágica.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Lolita</h3>
+                    <img src="Imagenes/lolita.jpg" alt="Lolita">
+                    <p>Bloquea proyectiles enemigos con su escudo y protege al equipo durante los combates.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Mathilda</h3>
+                    <img src="Imagenes/mathilda.jpg" alt="Mathilda">
+                    <p>Otorga movilidad adicional a sus aliados mientras hostiga con daño mágico.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Rafaela</h3>
+                    <img src="Imagenes/rafaela.jpg" alt="Rafaela">
+                    <p>Especialista en curar y aumentar la velocidad de movimiento de todo el equipo.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Helcurt</h3>
+                    <img src="Imagenes/helcurt.jpg" alt="Helcurt">
+                    <p>Oscurece el mapa y elimina rápidamente a los héroes más vulnerables.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Natalia</h3>
+                    <img src="Imagenes/natalia.jpg" alt="Natalia">
+                    <p>Permanece invisible para sorprender y acabar con los tiradores y magos enemigos.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Saber</h3>
+                    <img src="Imagenes/saber.jpg" alt="Saber">
+                    <p>Su definitiva inmoviliza y ejecuta a un objetivo prioritario con gran facilidad.</p>
+                </div>
+
+                <div class="card-secciones">
+                    <h3>Selena</h3>
+                    <img src="Imagenes/selena.jpg" alt="Selena">
+                    <p>Alterna entre dos formas para aturdir enemigos y eliminarlos con explosivos combos.</p>
+                </div>
+
+            </div>
+            </details>
+    </section>
+
+    <hr class="linea-divisora">
+
+    <section id="rangos">
+        <h2 class="titulo-seccion">Rangos</h2>
+        <div class="fila-secciones">
+        <div class="card-secciones">
+            <h3>Guerrero</h3>
+            <img src="Imagenes/guerrero.png" alt="Guerrero">
+        </div>
+
+        <div class="card-secciones">
+            <h3>Élite </h3>
+            <img src="Imagenes/elite.png" alt="elite">
+        </div>
+
+        <div class="card-secciones">
+            <h3>Maestro</h3>
+            <img src="Imagenes/maestro.png" alt="maestro">
+        </div>
+
+        <div class="card-secciones">
+            <h3> Gran Maestro</h3>
+            <img src="Imagenes/GranMaestro.png" alt="maestro">
+        </div>
+
+        <div class="card-secciones">
+            <h3>Épico </h3>
+            <img src="Imagenes/Épico.png" alt="maestro">
+        </div>
+
+        <div class="card-secciones">
+            <h3>Leyenda</h3>
+            <img src="Imagenes/leyenda.png" alt="maestro">
+        </div>
+
+        <div class="card-secciones">
+            <h3>Mítico</h3>
+            <img id="mitico" src="Imagenes/Mitico.png" alt="Mítico">
+        </div>
+    </section>
+    
+    <footer>
+        <p>Maria Fernanda Benavides Perez - 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
